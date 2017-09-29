@@ -1,13 +1,13 @@
 # elue
 easy-ldap-user-edit
 
-This is a project that was pushed to GitHub - as it is - for educational purpose :)
+**This is a project that was pushed to GitHub - as it is - for educational purpose :)
 So if you rack your brain by fiddeling arround with PHP-LDAP Library --- have a look at it --- it might help
-Most of the code-comments etc are in german ... sorry for that. ELUE was my graduation project for german IHK.
+
+**Most of the code-comments etc are in german ... sorry for that. ELUE was my graduation project for german IHK.
 
 
 Installation unter Debian-Server
-
 
 1.) Grundinstallation Apache + PHP
 
@@ -24,3 +24,4 @@ TLS_CACERT /etc/ldap/certs/bsp-ldap-ca-cert.pem
 5.) Konfiguration von ELUE
 
 Durch das Konfigurationsfile unter /config werden der Server sowie die Vorgaben für "Autofill" festgelegt.
+
