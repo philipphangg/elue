@@ -1,0 +1,310 @@
+ body{
+    background-color:white; /* wenn bei windows z.B. window-backgroundfarbe vorgegeben .... zum loeschen */
+    font-family: "Lucida Sans", Helvetica;
+    font-weight:normal; 
+}
+
+
+#screen{
+   position: absolute;
+   width: 98%;
+   height:98%;
+}
+
+#outer_spinner{
+    position: absolute;
+    width:98%;
+    height:98%;
+}
+
+#spinner{
+    position: fixed;
+    width: 110px;
+    height: 110px; 
+    top: 50%;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -55px;
+}
+
+footer{
+    background-color:white;
+    margin-top:0.5em;
+    padding:1em 0 1em 0;
+    color:black;
+    text-align:center;
+    font-size:1em;
+}
+
+#headerdiv{
+    height: 6em;
+    min-width: 42em;   
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+
+#outer_wrapper{
+    position: relative;
+    margin:0.4em auto 0.8em auto;
+    max-width: 84em;
+    min-width:44em;
+    min-height: 50em;
+    border: 0.1em solid;
+    box-shadow: 10px 10px 5px #888888;
+}
+      
+#logindiv{
+    margin:4em auto 0em auto;
+    width: 42em;
+    border: 0.2em solid;
+    text-align:center;
+}
+
+#logintext{
+    margin: 0.5em;
+    font-size:2em;
+    font-weight: bold;    
+}
+
+#loginbutton{
+    width: 20em;
+    border: 0.2em solid;
+    text-align:center;    
+    text-align: center;
+    padding-top: 0.2em;
+    background-color: #e6e6e6;
+    margin: 1.5em;  
+    height: 2em;
+    font-size:1em;
+    font-weight: bold;
+}
+
+#loginbutton:hover {
+    background-color: lightgrey;  
+}
+
+#logoutbutton{
+    position: absolute;
+    right: 1em;
+    top:1em;
+    display:block;
+    text-decoration:none;
+    text-align: center;
+    padding-top: 0.2em;
+    width: 6em;
+    background-color: #e6e6e6;
+    border: 0.2em solid;
+    height: 2em;
+    font-size:1em;
+    font-weight: bold;
+}
+
+#logoutbutton:hover {
+	 background-color: lightgrey;  
+}
+
+#groupdiv{
+    height: 8.4em;
+    width: 99%;
+    overflow-y:scroll;
+    border: 0.1em solid black;
+}
+
+.groupin{
+    width: 93%;
+    border: 0.1em solid;
+    margin: 0.1em;
+}
+
+#groupsearch{
+    border: 0.1em solid;
+    margin-bottom: 0.5em;
+    width: 98%;
+}
+
+#buttonwrapper{
+    overflow:hidden;        
+    margin-bottom: 1em;
+}
+
+.buttondiv{
+    float:left;
+    overflow:hidden;
+    margin-left: 0.85em;
+    margin-bottom: 0.5em;
+    min-width: 40em;
+    height: 2.5em;
+}
+
+.fieldset1{
+    display: inline-table;
+    max-width:46.5em;
+    min-width: 46.5em;
+    font-size: 0.8em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.4em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    border: 0.2em solid;
+    border-radius: 0.5em;
+}
+
+.loginfieldset{
+    display: inline;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.4em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    border: 0.2em solid;
+    border-radius: 0.5em;
+}
+
+.standardin{
+    border: 0.1em solid;
+    width: 99%;
+}
+
+.standardin2{
+    border: 0.1em solid;
+    width: 99%;    
+}
+
+#accountexpires{
+    width: 60%;
+    margin-right: 2em;
+}
+
+#guimessage{
+    color:#82150b;
+    border-color: black;
+}
+
+#passfield{
+    height: 9em;
+    vertical-align: top;
+}
+
+.passin{
+    margin-bottom: 0.3em;
+    border: 0.1em solid;
+    width: 99%;
+}
+
+#oufield{
+    height: 9em;
+    vertical-align: top;
+}
+
+.ouselection{
+    border: 0.1em solid;
+    width: 99%;
+    background: white;
+    margin-bottom: 0.3em;
+}
+
+.groupselection{
+    border: 0.1em solid;
+    width: 99%;
+    background: white;
+}
+
+.loginin{
+    border: 0.2em solid;
+    width: 40em;
+}
+
+
+.buttons {
+    float:left;
+    display:block;
+    background-color: #e6e6e6;
+    text-decoration:none;
+    text-align: center;
+    padding-top: 0.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 11em;
+    border: 0.2em solid;
+    height: 2em;
+    font-size:1em;
+    font-weight: bold;
+}
+
+.buttons:hover {
+    background-color: lightgrey;  
+}
+
+.buttons:active {
+    background-color: lightgrey;
+}
+
+#changepassbutton{
+   height: 1.5em;
+   font-size:1em; 
+   padding: 0em;
+   margin: 0.3em 0 0 1em ;
+}
+
+
+#resetpassbutton{
+   height: 1.5em;
+   font-size:1em; 
+   padding: 0em;
+   margin: 0.3em 0 0 1em ; 
+}
+
+#addgroupbutton{
+   height: 1.5em;
+   font-size:1em; 
+   padding: 0em;
+   margin: 0.2em 0 0.2em 0 ;
+   
+}
+
+.deletegroupbuttons{
+    width: 5%;
+    border: 0.1em solid;
+    margin: 0.05em;
+    
+}
+
+.deletegroupbuttons:hover {
+    background-color: lightgrey;  
+}
+
+.redfont{
+    color: red;
+}
+
+.greenfont{
+    color: green;
+}
+
+.blackfont{
+    color: black;
+}
+
+.redbackground{
+    background-color: #d75d5d;
+}
+
+.orangeborder{
+    border-color: #eed713;
+}
+
+.redborder{
+    border-color: #b22d09;
+}
+
+.blackborder{
+    border-color: black;
+}
