@@ -150,7 +150,7 @@ $new_persondata["objectcategory"]= $configsettings['newobjectcategory'];
 $new_persondata["countrycode"]= $configsettings['newcountrycode'];
 
 // mssfu30nisdomain ////////////////////////////////////////////////////////////
-// unix attribut zur erweiterung des login namens, in kinemathek "kmt"
+// unix attribut zur erweiterung des login namens
 $new_persondata["mssfu30nisdomain"]= $configsettings['newmssfu30nisdomain'];
 
 // accountexpires //////////////////////////////////////////////////////////////
